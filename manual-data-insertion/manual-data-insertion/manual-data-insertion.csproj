@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>manual_data_insertion</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\data-insert\Controllers\Controllers.csproj" />
+    <ProjectReference Include="..\..\data-insert\Services\Services.csproj" />
+    <ProjectReference Include="..\..\data-seeder\Models\Models.csproj" />
+    <ProjectReference Include="..\..\data-seeder\Repositories\Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
